@@ -1,0 +1,16 @@
+﻿<Window x:Class="EntityDatabase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EntityDatabase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="Weapons"  Margin="0,0,0,288" />
+        <Button Margin="10,154,581,233" Content="Players" Click="Button_Click"></Button>
+        <Button Margin="578,154,10,233" Content="WeaponsTypes" Click="Button_Click_1"></Button>
+        <Frame x:Name="Pageframe1" Margin="0,230,416,0" NavigationUIVisibility="Hidden"/>
+        <Frame x:Name="Pageframe2" Margin="419,230,0,0" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
